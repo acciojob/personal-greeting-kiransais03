@@ -10,7 +10,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <form>
-          <label htmlFor="ip">Enter your name:</label>
+          <label htmlFor="ip"><p>Enter your name:</p></label>
           <input type="text" onChange={(event)=>{setIpval(event.target.value)}} id="ip"/>
         </form>
         {ipval && <p>Hello {ipval}!</p> }
