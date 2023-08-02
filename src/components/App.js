@@ -13,7 +13,7 @@ const App = () => {
           <label htmlFor="ip">Enter your name:</label>
           <input type="text" onChange={(event)=>{setIpval(event.target.value)}} id="ip"/>
         </form>
-        {ipval && <p>Hello {ipval}</p> }
+        {ipval && <p>Hello {ipval}!</p> }
     </div>
   )
 }
